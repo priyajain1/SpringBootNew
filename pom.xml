@@ -49,7 +49,18 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
+		<resources>
+        <resource>
+            <directory>demo</directory>
+            <includes>
+                <include>**/Procfile.txt</include>
+            </includes>
+        </resource>
+    </resources>
 	</build>
+	
+	
 
 
 </project>
